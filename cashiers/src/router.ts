@@ -1,6 +1,6 @@
 import express, { Request, Response } from "express";
-import * as CashierService from "./services";
-import { BaseCashier, Cashier } from "./interfaces";
+import * as CashierService from "./services.ts";
+import { BaseCashier, Cashier } from "./interfaces.ts";
 const winston = require('./winston');
 
 export const cashierRouter = express.Router();
