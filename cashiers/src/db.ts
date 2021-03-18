@@ -1,7 +1,7 @@
 import { Cashiers } from './interfaces.ts';
 import { Sex, Shift, DayOfWeek } from './const.ts';
 
-const cashiers: Cashiers = {
+export const cashiers: Cashiers = {
   1: {
     id: 1,
     name: 'Bred',
@@ -119,4 +119,4 @@ const cashiers: Cashiers = {
   },
 };
 
-export default cashiers;
+
