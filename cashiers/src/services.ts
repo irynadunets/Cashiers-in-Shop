@@ -1,5 +1,5 @@
-import { BaseCashier, Cashier, Cashiers } from "./interfaces";
-import { cashiers } from "./db";
+import { BaseCashier, Cashier, Cashiers } from './interfaces.ts';
+import { cashiers } from './db.ts';
 
 export const findAll = async (): Promise<Cashier[]> => { return Object.values(cashiers) };
 
